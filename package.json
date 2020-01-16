@@ -1,7 +1,7 @@
 {
   "name": "plog",
   "description": "p - A small global logging utility for faster debugging",
-  "version": "0.0.3",
+  "version": "0.2.3",
   "main": "index.js",
   "bin": "plog",
   "scripts": {

@@ -1,7 +1,7 @@
-[![version](https://img.shields.io/npm/v/plog.svg)]() [![license](https://img.shields.io/github/license/porsager/plog.svg)]()
-
 > Your new best friend when developing, and probably ONLY for development
  
+[![version](https://img.shields.io/npm/v/plog.svg)]() [![license](https://img.shields.io/github/license/porsager/plog.svg)]()
+
 # 🐞 `p()` 
 
 ```js
