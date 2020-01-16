@@ -6,6 +6,10 @@
   "scripts": {
     "start": "plog"
   },
+  "files": [
+    "plog",
+    "index.js"
+  ],
   "author": "Rasmus Porsager <rasmus@porsager.com>",
   "repository": "porsager/plog",
   "license": "WTFPL",
