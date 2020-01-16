@@ -1,0 +1,14 @@
+#! /usr/bin/env node
+const path = require('path')
+    , prexit = require('prexit')
+
+const child = require('child_process').spawn(
+  process.argv[0],
+  ['-r', path.join(__dirname, 'index.js')].concat(process.argv.slice(2)),
+  { stdio: 'inherit' }
+)
+
+prexit(signal => {
+  child.kill(signal)
+  return new Promise(r => child.once('exit', r))
+})
